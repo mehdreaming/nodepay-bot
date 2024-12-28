@@ -2,9 +2,9 @@ class Config {
   constructor() {
     this.baseURL = 'https://nodepay.ai';
     this.ipCheckURL = 'https://ipinfo.io/json';
-    this.pingURL = 'https://nw.nodepay.org/api/network/ping';
+    this.pingURL = 'https://nw.nodepay.ai/api/network/ping';
     this.retryInterval = 30000;
-    this.sessionURL = 'https://api.nodepay.org/api/auth/session';
+    this.sessionURL = 'https://api.nodepay.ai/api/auth/session';
   }
 }
 

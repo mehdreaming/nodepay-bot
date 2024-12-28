@@ -1,10 +1,10 @@
 class Config {
   constructor() {
-    this.baseURL = 'https://nodepay.org';
-    this.ipCheckURL = 'https://ipinfo.io/json';
-    this.pingURL = 'http://nw.nodepay.ai/api/network/ping';
+    this.baseURL = 'https://nodepay.api';  // Updated base URL
+    this.ipCheckURL = 'https://ipinfo.io/json';  // This URL seems fine, no changes needed
+    this.pingURL = 'https://nodepay.api/ping';  // Updated ping URL
     this.retryInterval = 30000; // 30 seconds
-    this.sessionURL = 'http://api.nodepay.ai/api/auth/session';
+    this.sessionURL = 'https://nodepay.api/api/auth/session';  // Updated session URL
   }
 }
 

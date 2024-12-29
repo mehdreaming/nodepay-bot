@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 class Config {
   constructor() {
     // Updated URLs

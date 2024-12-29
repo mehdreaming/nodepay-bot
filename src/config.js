@@ -33,4 +33,4 @@ const CONFIG = {
   MAX_RETRIES: 6,
 };
 
-export default CONFIG;
+module.exports = CONFIG;
